@@ -1,0 +1,16 @@
+@relation student
+
+@attribute Course {Math, English, Programming, OOP, ML, SE1, Pak-study}
+@attribute attendence {P, A}
+@attribute Grade {A, B, C, D, F}
+@attribute Department {CS, SE, EE}
+@attribute Uni_hostel {yes, no}
+
+@data
+Math,P,B,CS,yes
+English,A,F,EE,no
+Programming,P,A,SE,no
+OOP,P,B,CS,yes
+ML,P,C,CS,no
+SE1,P,D,SE,yes
+Pak-study,A,F,EE,no
